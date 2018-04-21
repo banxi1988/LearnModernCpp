@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "preLaunchTask": "BuildCurrentCppFile",
-            "program": "./build/${fileBasenameNoExtension}.out",
+            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
